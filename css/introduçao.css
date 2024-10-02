@@ -1,0 +1,32 @@
+.introduçao     {
+max-width: 1200px;
+padding: 40px 20px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 100px;
+align-items: center;
+
+}
+.introduçao img   {
+width: 300px;
+}
+.introduçao h1   {
+font-size: 4.5rem;
+line-height: 1.125;
+margin-bottom: 30px;
+}
+.introduçao h1::before    {
+    content: "";
+    display: block;
+    width: 138px;
+    height: 100px;
+    background: url() no-repeat center;
+    position: absolute;
+    top: 0px;
+    left: -40px;
+}
+.introduçao p                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+font-size: 1.5rem;
+color: #525252
+}
