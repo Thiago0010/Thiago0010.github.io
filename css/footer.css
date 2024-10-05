@@ -10,10 +10,10 @@ grid-template-columns: 1fr 2fr;
 gap: 100px;
 align-items: center;
 }
-footer-texto   {
+footer-texto  {
 font-size: 1.5rem;
 line-height: 1.33;
-color: #cccccc
+color: #ff0000
 }
 .footer-contato li      {
 font-weight: bold;
