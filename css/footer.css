@@ -10,22 +10,31 @@ grid-template-columns: 1fr 2fr;
 gap: 100px;
 align-items: center;
 }
-footer-texto  {
+.footer-texto  {
 font-size: 1.5rem;
 line-height: 1.33;
-color: #ff0000
+color: #5a5a5a
 }
 .footer-contato li      {
 font-weight: bold;
 font-size: 2.25rem;
 line-height: 1.1;
-color: #ffffff; 
+color: #3a3a3a; 
 margin-bottom: 30px;
 }
 .footer-contato li a      {
-color: #ffffff
+color: #8686866e;
+text-decoration: none
 }
 .footer-copy     {
 font-size: 1.125rem;
-color: #8f8f8f
+color: #949494
+}
+@media(max-width:650px){
+.footer-texto{
+color: #959595
+}
+.footer-contato li{
+font-size: 24px
+}
 }

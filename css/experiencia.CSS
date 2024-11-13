@@ -95,3 +95,8 @@ text-align: left;
 grid-template-columns: 1fr;
 }
 }
+@media(max-width: 650px){
+.subtitulo{
+font-size: 15ch; 
+}
+}
